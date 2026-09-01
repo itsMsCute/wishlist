@@ -1,0 +1,156 @@
+index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>itsMsCute Wishlist</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f8f5fa;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px 30px;
+        }
+
+        header h1 {
+            margin: 0 0 10px;
+            font-size: 38px;
+        }
+
+        header p {
+            margin: 0 auto;
+            max-width: 600px;
+            font-size: 17px;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .wishlist {
+            max-width: 1100px;
+            margin: 20px auto 60px;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .product {
+            background: white;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .product img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .product-content {
+            padding: 22px;
+        }
+
+        .product h2 {
+            margin: 0 0 8px;
+            font-size: 23px;
+        }
+
+        .price {
+            font-size: 21px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+
+        .description {
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .donate-button {
+            display: block;
+            width: 100%;
+            padding: 13px;
+            text-align: center;
+            text-decoration: none;
+            background: #7c4dff;
+            color: white;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        .donate-button:hover {
+            opacity: 0.9;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>💜 itsMsCute Wishlist</h1>
+
+        <p>
+            Cositas que me gustaría conseguir para mi setup y creación de contenido.
+            Si quieres apoyarme con alguna, ¡muchísimas gracias! 🥰
+        </p>
+    </header>
+
+    <main class="wishlist">
+
+        <div class="product">
+
+            <img 
+                src="https://placehold.co/800x600?text=Silla+Gamer"
+                alt="Silla Gamer"
+            >
+
+            <div class="product-content">
+
+                <h2>🪑 Silla Gamer</h2>
+
+                <div class="price">$100</div>
+
+                <div class="description">
+                    Una silla que me gustaría conseguir para mejorar mi setup
+                    y estar más cómoda durante mis streams. 🎮💜
+                </div>
+
+                <a 
+                    class="donate-button"
+                    href="#"
+                >
+                    💜 DONAR
+                </a>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        💜 Gracias por apoyar a itsMsCute
+    </footer>
+
+</body>
+</html>
